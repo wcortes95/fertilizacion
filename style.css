@@ -24,3 +24,70 @@ img {
     background-color:#128C7E;
     transform:scale(1.05);
 }
+
+.beneficios{
+    max-width:900px;
+    margin:40px auto;
+    padding:30px;
+    background:#f8f9fa;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    text-align:left;
+}
+
+.beneficios h2{
+    text-align:center;
+    color:#2E7D32;
+    font-size:34px;
+    margin-bottom:25px;
+}
+
+.beneficios ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.beneficios li{
+    font-size:22px;
+    color:#444;
+    margin-bottom:18px;
+    line-height:1.5;
+}
+
+.precio{
+    max-width:450px;
+    margin:40px auto;
+    padding:25px;
+    text-align:center;
+    background:#f8f8f8;
+    border:3px solid #2E7D32;
+    border-radius:15px;
+    box-shadow:0 6px 15px rgba(0,0,0,.15);
+}
+
+.precio h2{
+    color:#2E7D32;
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.precio-anterior{
+    font-size:24px;
+    color:#777;
+    text-decoration:line-through;
+    margin-bottom:10px;
+}
+
+.precio-actual{
+    font-size:48px;
+    font-weight:bold;
+    color:#D32F2F;
+    margin:10px 0;
+}
+
+.precio-texto{
+    font-size:18px;
+    color:#555;
+    margin-top:15px;
+}
